@@ -9,9 +9,6 @@ export function MapFactory(google) {
                 center
             });
         }
-        get isMounted() {
-            return Boolean(this.map);
-        }
     }
     return GooglemapsMap;
 }
